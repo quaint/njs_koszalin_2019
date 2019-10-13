@@ -1,0 +1,4 @@
+{
+  "private": true,
+  "workspaces": ["subsystem-1", "subsystem-2"]
+}
