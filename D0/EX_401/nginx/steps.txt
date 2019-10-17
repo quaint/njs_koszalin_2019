@@ -1,0 +1,7 @@
+
+
+z katalogu ./nginx
+
+docker build -t load-balance-nginx-pm2-cluster .
+docker run -p 9000:80 load-balance-nginx-pm2-cluster
+

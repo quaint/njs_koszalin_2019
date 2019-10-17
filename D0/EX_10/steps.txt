@@ -1,0 +1,20 @@
+
+z katalogu ./app
+
+docker build -t myapp .
+
+potem 
+
+docker run -p 8081:8080 -d myapp
+docker run -p 8082:8080 -d myapp
+
+na przeglądarce sprawdzamy
+
+http://localhost:8081/
+http://localhost:8082/
+
+z katalogu ./nginx
+
+docker build -t load-balance-nginx .
+docker run -p 9000:80 -d load-balance-nginx
+
