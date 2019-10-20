@@ -1,5 +1,5 @@
 {
-  "name": "ex_7",
+  "name": "redis_examples",
   "version": "1.0.0",
   "description": "",
   "main": "redis.js",
