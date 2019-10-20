@@ -1,12 +1,6 @@
 
-z katalogu ./app
-
-docker build -t myapp .
-
-potem 
-
-docker run -p 8081:8080 -d myapp
-docker run -p 8082:8080 -d myapp
+node app1/bin/www
+node app2/bin/www
 
 na przeglądarce sprawdzamy
 
