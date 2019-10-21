@@ -46,3 +46,15 @@ console.log('Kodowanie 4:', new Date() - start);
   }
 );
 
+// 5 
+crypto.pbkdf2('my_password', 
+  'salt', 
+  1000000, 
+  512, 
+  'sha512', 
+  () => {
+console.log('Kodowanie 5:', new Date() - start);
+  }
+);
+
+ 
