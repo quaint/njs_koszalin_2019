@@ -1,2 +1,0 @@
-https://releases.hashicorp.com/consul-template/0.22.0/
-
