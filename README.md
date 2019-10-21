@@ -1,2 +1,2 @@
 # njs_koszalin_2019
-Materials for course NJS
+Materials for course of Node.JS, Express, PM2, Load Balancing
