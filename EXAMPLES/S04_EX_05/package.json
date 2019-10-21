@@ -1,0 +1,16 @@
+{
+  "name": "EX_207",
+  "version": "1.0.0",
+  "description": "",
+  "main": "redis_promisify.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.1",
+    "redis": "^2.8.0"
+  }
+}

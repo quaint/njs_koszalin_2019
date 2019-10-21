@@ -1,0 +1,18 @@
+PM2 + aplikacja na kilku portach + NGINX
+
+
+➜  express git:(master) ✗ netstat -anv | egrep ".300"
+tcp46      0      0  *.3003                 *.*                    LISTEN      131072 131072  17860      0 0x0100 0x00000106
+tcp46      0      0  *.3002                 *.*                    LISTEN      131072 131072  17860      0 0x0100 0x00000106
+tcp46      0      0  *.3001                 *.*                    LISTEN      131072 131072  17860      0 0x0100 0x00000106
+tcp46      0      0  *.3000                 *.*                    LISTEN      131072 131072  17860      0 0x0100 0x00000106
+
+
+telnet localhost 3000
+telnet localhost 3001
+telnet localhost 3002
+telnet localhost 3003
+
+for i in {1..20000}; do echo $i; curl http://localhost:3000; done;
+
+

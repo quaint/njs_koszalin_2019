@@ -1,0 +1,2 @@
+testcafe chrome allegro.js --skip-js-errors -s .
+
