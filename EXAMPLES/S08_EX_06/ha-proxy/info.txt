@@ -2,5 +2,5 @@ docker run -p 1936:1936  -p 80:5000 -v $(pwd)/redis-ha.cfg:/etc/haproxy/haproxy.
 
 http://localhost:1936
 
-redi-cli localhost:80
+redis-cli localhost:80
 
